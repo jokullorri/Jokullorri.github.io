@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Verkefni 3 </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="no-sidebar is-preload">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <!-- Logo -->
+                <h1 id="logo"><a href="index.html">Heim</a></h1>
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#">Verkefni</a>
+                            <ul>
+                                <li><a href="Verkefni-1.html">Verkefni 1</a></li>
+                                <li><a href="Verkefni-2.html">Verkefni 2</a></li>
+                                <li><a href="Verkefni-3.html">Verkefni 3</a></li>
+                                <li><a href="#">Lokaverkefni</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Um-mig.html">Um mig</a></li>
+                        <li class="break"><a href="Upplysingar.html">Tenglar</a></li>
+                        <li><a href="Frodleikur.html">Fróðleikur</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="wrapper">
+            <div class="container" id="main">
+                <!-- Content -->
+                <article id="content">
+                    <header>
+                        <h1>Verkefni 3 - 3D prentun og 3D skönnun</h1>
+                    </header>
+
+                    <div class="article-border">
+                        <header><h2>Verkefnalýsing:</h2></header>
+                        <ol>
+                          <p> Einstaklingsverkefni:
+                            Hannaðu lítið módel fyrir 3D prentun sem ekki væri hægt að framkvæma með frádráttar framleiðslu (addative vs subtractive). Hannaðu og framkvæmdu prófanir á 3D prentaranum til að ákvarða hönnunar reglur og skorður áður en módelið er á endanum prentað. Útskýrðu hvað þú lærðir af ferlinu.</p>
+                            
+                           <p> Prentaðu hlutinn (max 100g af plasti skv. slicer).</p>
+                            
+                            3D Skannaðu einhvern hlut.
+                            
+                          <p>  Verkfæri/vélbúnaður sem nemendur hafa aðgang að:</p>
+                           <p> Prusa MK3+, Creality CR-10 MAX. </p>
+                        </ol>
+                        <p> Í þessu verkefni hannaði ég og teiknaði lítið skothylki sem er kjörið til seðlageymslu. Sjá mynd af hlutnum hér að neðan. </p>
+
+                          <figure>
+                            <img src="/images/Hylkisedlar.jpeg" alt="Límmiðar" style="width:50%">
+                            <figcaption>Myndir af hlutnum.</figcaption>
+                            </figure>
+
+                        <h2>3D prentun:</h2>
+                        <p>Við upphaf þessara verkefnis var ég nokkuð ráðþrota, ég reyndi að skoða allskonar síður á netinu í leit að innblæstri en ekkert fann. Svo var ég heima og datt í hug að búa eitthvað til sem ég gæti geymt seðla í þar sem seðlaveski tilheyra ekki nútímanum. Þá gaf augaleið að ég myndi fylgja því þema sem er að myndast á síðunni og búa til skothylki sem myndi virka sem svona skemmtilegt seðla geymsluhólf. Ég vildi að hylkið yrði sem líkast skoti nema bara stærra. Markmið verkefnisins var að búa til hlut sem ekki væri hægt að skera út með laserskurði eða öðrum framleiðsluaðferðum sem finna má í fablab. Þar sem að skotið er holt að innan með þrengingu eins og á flösku þá tel ég það uppfylla kröfur verkefnisins. </p>
+                        
+                        
+                        <p> Að teikna hlutinn gekk ágætlega fyrir sig. Mesta vandamálið var að ná hlutföllunum réttum svo að það væri augljóst að þeetta væri skothylki. Einnig þá byrjaði ég að búa til prufu þar sem veggþykktin var 1 mm, það gekk vel að prenta það út en ég var ekki alveg nógu sáttur með útlitið. Ég vildi hafa veggina grennri en var ekki viss um hvað ég kæmist upp með að hafa þá granna en ég ákvað næst að prufa veggþykkt 0,7 mm og það gekk upp. Að lokum reyndi ég við veggþykkt 0,5 mm og það fannst mér koma best út. </p>
+                        <p> Næst var það bara að prenta skothylkið út, í prófunarfasa verkefnisins notaði ég svart PLA efni sem þar sem að það er sterkt en ekki of hart og býður þannig uppá smá sveigjanleika.</p>
+                        
+                        <h3>PrusaSlicer:</h3>
+                        Til þess að prenta út bæði prufur og svo hylkið sjálft þá sótti ég .3mf útgáfur af fusion skránum sem ég hlóð svo upp í PrusaSlicer og valdi þar prentara og stillti hann af. Prenatarinn sem notaður var í þessu verkefni er af gerðinni Prusa i3 MK3+ með 0,4 mm stút. Prentað var með 15% infill og ákveðið var að prenta án stuðnings. Sjá má myndir af stillingunum í PrusaSlicer og myndir af bæði einni prufu og hylkinu sjálfu hér að neðan.
+                        
+                        <head>
+                            <meta charset="UTF-8" />
+                            <title>Three Images Side by Side</title>
+                            <style>
+                            .image-container {
+                                            display: flex;          /* Places items (images) in a row */
+                                             gap: 10px;             /* Adds a little space between images */
+                                                justify-content: center; /* Centers the group horizontally (optional) */
+                                                            }
+                                    .image-container img {
+                                                width: 33%;           /* Assigns each image about 30% of the container width */
+                                                                }
+                            </style>
+                        </head>
+                        <body>
+
+                            <div class="image-container">
+                                <img src="images/PSHylki.png" alt="Image 1" />
+                                <img src="images/PSPrufa.png" alt="Image 2" />
+                                <img src="images/PSStill.png" alt="Image 3" />
+                            </div>
+
+                        </body>
+                        <p> Hér koma svo myndir af prufu og loka útfærslu á hylkinu að koma út prentun.</p>
+                        
+                        <head>
+                            <meta charset="UTF-8" />
+                            <title>Three Images Side by Side</title>
+                            <style>
+                            .image-container {
+                                            display: flex;          /* Places items (images) in a row */
+                                             gap: 10px;             /* Adds a little space between images */
+                                                justify-content: center; /* Centers the group horizontally (optional) */
+                                                            }
+                                    .image-container img {
+                                                width: 33%;           /* Assigns each image about 30% of the container width */
+                                                                }
+                            </style>
+                        </head>
+                        <body>
+
+                            <div class="image-container">
+                                <img src="images/Prufaprent.jpeg" alt="Image 1" />
+                                <img src="images/Hylkiprent.jpeg" alt="Image 2" />
+                            </div>
+
+                        </body>
+                        
+                        <h2>3D skönnun:</h2>
+                        <p>Í þessu hluta verkefnisins notaðist ég við 3D skönnunar forttið Polycam. Ég hafði heyrt frá nemendum frá árinu áður sem og samnemendum mínum að það væri fínasta forrit sem ekki þurfti að greiða fyrir. Ég hlóð appinu niður og byrjaði að mynda. Hluturinn sem varð fyrir valinu var þessi fíni bikar sem er að finna í heimastofu vélarinnar. Þennan bikar vann kvennadeild vélarinnar á íþróttamóti FV árið 2006. Erfitt reyndist að skanna bikarinn þar sem að í eðli sínu þá er hann bikarlaga og forritið var ekki alveg að ná að skanna það nógu vel. Eftir nokkrar tilraunir þá náði ég einu ágætu skanni þar sem ég tók um 100 myndir af bikarnum, sjá á afrakstur erfiðisins hér að neðan.  </p>
+                    </div>
+                      <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+
+                            <!-- Use it like any other HTML element -->
+                            <model-viewer alt="prent" src="assets/models/18.3.2025.glb" shadow-intensity="2" camera-controls touch-action="pan-y" style="width:850px;height:600px;"></model-viewer>
+                                  
+                   
+                </article>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer-wrapper">
+            <div id="footer" class="container">
+                <header class="major">
+                    <h2>Hafðu samband</h2>
+                </header>
+                <div class="row">
+                    <section class="col-6 col-12-narrower">
+                        <form method="post" action="#">
+                            <div class="row gtr-50">
+                                <div class="col-6 col-12-mobile">
+                                    <input name="name" placeholder="Name" type="text" />
+                                </div>
+                                <div class="col-6 col-12-mobile">
+                                    <input name="email" placeholder="Email" type="text" />
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <ul class="actions">
+                                        <li><input type="submit" value="Send Message" /></li>
+                                        <li><input type="reset" value="Clear form" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                    <section class="col-6 col-12-narrower">
+                        <div class="row gtr-0">
+                            <ul class="divided icons col-6 col-12-mobile">
+                                <li class="icon brands fa-facebook-f"><a href="#"><span class="extra">facebook.com/</span></a></li>
+                            </ul>
+                            <ul class="divided icons col-6 col-12-mobile">
+                                <li class="icon brands fa-instagram"><a href="#"><span class="extra">instagram.com/</span></a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="copyright" class="container">
+                <ul class="menu">
+                    <li>&copy; Jökull Orri Jóhannesson. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
